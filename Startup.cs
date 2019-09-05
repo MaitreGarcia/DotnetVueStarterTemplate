@@ -61,7 +61,7 @@ namespace DotnetVue
 
                 if (env.IsDevelopment())
                 {
-                    spa.UseVueCli(npmScript: "start");
+                    spa.UseVueCli(npmScript: "serve");
                 }
             });
         }
